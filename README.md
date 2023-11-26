@@ -25,14 +25,19 @@ The challenge binary, `buffer_overflow_challenge`, is a vulnerable program susce
 Hints
 Hint 1: Understanding the Binary
 Analyze the provided binary to understand its behavior and identify potential vulnerabilities.
+
 Hint 2: Buffer Overflow Basics
 Learn about buffer overflow attacks and understand how they can be exploited to manipulate program execution.
+
 Hint 3: Function to Reach
 Identify the hidden function (win()) that you need to reach in order to retrieve the flag.
+
 Hint 4: Input Validation
 Explore the input validation mechanisms in the program and think about how they might be bypassed.
+
 Hint 5: Memory Layout
 Investigate the memory layout of the program to understand how the stack is organized during execution.
+
 Flag Format
 The flag for this challenge is in the format: NULL{********}
 
