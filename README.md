@@ -18,9 +18,7 @@ The challenge binary, `buffer_overflow_challenge`, is a vulnerable program susce
 3. Run the Docker Container
    '''bash
    docker run -p 8888:1234 buffer_overflow_challenge
-4. Access the challenge
-  Open your web browser and navigate to http://localhost:8888 to interact with the challenge. Alternatively, use tools like curl or telnet to communicate with the challenge.
-
+4. Access the challenge through the command line 
 
 Hints
 Hint 1: Understanding the Binary
