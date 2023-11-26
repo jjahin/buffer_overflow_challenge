@@ -7,9 +7,9 @@ WORKDIR /app
 # Copy the source code
 COPY buffer_overflow_challenge.c .
 
-# Build the binary
+# Build the binary with debugging symbols
 RUN apt-get update && apt-get install -y gcc \
-    && gcc -o buffer_overflow_challenge buffer_overflow_challenge.c -fno-stack-protector -z execstack
+    && gcc -g -o buffer_overflow_challenge buffer_overflow_challenge.c -fno-stack-protector -z execstack
 
 # Create a smaller final image
 FROM kalilinux/kali-rolling
