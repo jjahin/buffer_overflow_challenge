@@ -17,7 +17,9 @@ The challenge binary, `buffer_overflow_challenge`, is a vulnerable program susce
    docker build -t buffer_overflow_challenge .
 3. Run the Docker Container
    '''bash
-   docker run -p 8888:1234 buffer_overflow_challenge
+   docker run -p 8888:1234 buffer_overflow_challenge or 
+   docker run -it --rm -p 1234:1234 buffer_overflow_challenge
+
 4. Access the challenge through the command line 
 
 Hints
@@ -39,7 +41,6 @@ Investigate the memory layout of the program to understand how the stack is orga
 Flag Format
 The flag for this challenge is in the format: NULL{********}
 
-Disclaimer
-This challenge is designed for educational purposes. Please ensure that you have the necessary permissions before attempting any exploitation.
+//after inputing the string use the binary and attach it in the debugger
 
 Happy hacking!
